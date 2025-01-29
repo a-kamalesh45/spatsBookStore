@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div  class="cover">
+        <img src="${book.image}" alt="${book.title}">
+    </div>
+    <div class="data">    
+        <h1 class="title">${book.title}</h1>
+        <h2 class="author">${book.author}</h2>
+        <h1 class="price">${book.price}</h1>
+        <h3 class="desc">${book.description}</h3>
+        <div class="icons">
+          <a href=""><img  src="Gallery/buy.svg" alt="Buy Now">Buy Now</a>
+          <a href=""><img  src="Gallery/fav.svg" alt="Favourite">Add to wish list</a>
+          <a href=""><img class="more" src="Gallery/more.svg" alt="More">Read more</a>
+        </div>
+    </div>
+</body>
+</html>
